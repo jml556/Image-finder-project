@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 10vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: rebeccapurple;
+}
+
+input {
+    margin: 20px;
+    max-width: 200px;
+    padding:  2.5px;
+    text-align: left;
+    border: none;
+}
+
+.image-container {
+    background-color: black;
+    height: 100%;
+}
